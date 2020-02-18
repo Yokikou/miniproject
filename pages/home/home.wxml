@@ -1,1 +1,8 @@
 <!--pages/home/home.wxml-->
+<view>{{ name }}</view>
+
+<view wx:for="{{ student }}">{{ item.name }}--{{ item.age }}</view>
+
+<view>{{ count }}</view>
+<button bindtap="addSum">+</button>
+<button bindtap="subSum">-</button>
