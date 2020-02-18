@@ -1,1 +1,10 @@
 <!--pages/home/home.wxml-->
+<button
+open-type="getUserInfo"
+bindgetuserinfo="getUser">
+获取授权
+</button>
+
+<open-data type="userProvince"></open-data>
+<view>----------</view>
+<open-data type="userCity"></open-data>
