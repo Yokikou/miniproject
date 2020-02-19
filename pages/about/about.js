@@ -12,6 +12,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    console.log(options)
 
   },
 
@@ -40,6 +41,14 @@ Page({
    * 生命周期函数--监听页面卸载
    */
   onUnload: function () {
+    // console.log('页面退出')
+    const pages=getCurrentPages();
+    const home=pages[pages.length-2];
+    // console.log(home)
+
+    home.setData({
+      title:'hahaha'
+    })
 
   },
 

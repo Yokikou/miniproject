@@ -1,1 +1,5 @@
 <!--pages/home/home.wxml-->
+<navigator url="/pages/about/about?name=yqg&age=21">切换</navigator>
+{{ title }}
+
+<button bind:tap="clickTo">跳转</button>
