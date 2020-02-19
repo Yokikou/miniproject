@@ -175,3 +175,9 @@
 <!-- <my-slot>
   <button slot="center">+++</button>
 </my-slot> -->
+
+<!-- <button bind:tap="showtoast">show toast</button> -->
+
+<!-- <button open-type="share">show toast</button> -->
+
+<navigator url="../../pages/about/about">跳转到分类页面</navigator>
