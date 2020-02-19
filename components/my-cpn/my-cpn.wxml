@@ -1,0 +1,5 @@
+<!--componentns/my-cpn/my-cpn.wxml-->
+<!-- <view class="titleclass">{{ title }}</view>
+<view>我是组件内容</view> -->
+
+<button size="mini" bind:tap="addit">+1</button>

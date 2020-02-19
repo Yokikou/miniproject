@@ -1,0 +1,14 @@
+<!--components/w-tab-control.wxml-->
+<!-- <text>components/w-tab-control.wxml</text> -->
+
+<view class="out">
+  <!-- <view class="inner">html</view>
+  <view class="inner">css</view>
+  <view class="inner">js</view> -->
+
+  <block wx:for="{{ title }}" wx:key="{{ index }}">
+    <view class="inner {{ index==numberindex ? 'active' : '' }} titlecolor" bindtap="changecolor" data-index="{{ index }}">
+      <text>{{ item }}</text>
+    </view>
+  </block>
+</view>

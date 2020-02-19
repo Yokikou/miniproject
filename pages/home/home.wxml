@@ -1,10 +1,177 @@
 <!--pages/home/home.wxml-->
-<button
-open-type="getUserInfo"
-bindgetuserinfo="getUser">
-获取授权
+<!-- <button open-type="getUserInfo" bindgetuserinfo="getUser">
+  获取授权
 </button>
 
 <open-data type="userProvince"></open-data>
 <view>----------</view>
-<open-data type="userCity"></open-data>
+<open-data type="userCity"></open-data> -->
+
+<!-- <view>----------</view>
+<view>----------</view>
+<view>----------</view>
+<view>----------</view>
+<view>----------</view>
+<view>----------</view>
+<view>----------</view>
+<view>----------</view>
+<view>----------</view>
+<view>----------</view>
+<view>----------</view>
+<view>----------</view>
+<view>----------</view>
+<view>----------</view>
+<view>----------</view>
+<view>----------</view>
+<view>----------</view>
+<view>----------</view>
+<view>----------</view>
+<view>----------</view>
+<view>----------</view>
+<view>----------</view>
+<view>----------</view>
+<view>----------</view>
+<view>----------</view>
+<view>----------</view>
+<view>----------</view>
+<view>----------</view>
+<view>----------</view>
+<view>----------</view> -->
+
+
+<!-- <text selectable>\nhello</text>
+<text decode>\n5 &gt; 3</text>
+
+<button>按钮</button>
+<button size="mini">按钮</button>
+<button size="mini" type="warn">按钮</button>
+<button size="mini" type="warn" loading>按钮</button>
+<button size="mini" hover-class="red">按钮</button> -->
+
+<!-- <view hover-class="red">box1</view> -->
+
+<!-- <image src="/assets/tabbar/home.png" mode="scaleToFill"></image> -->
+<!-- <image src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg" mode="scaleToFill"></image> -->
+
+<!-- <image show-menu-by-longpress src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"></image>
+<image src="{{ imgPath }}"></image>
+<button bindtap="chooicePic">选中图片</button>
+<image></image> -->
+
+<!-- <input></input> -->
+
+<!-- <scroll-view class="hei" scroll-x>
+  <view class="bc" wx:for="{{ 10 }}">{{ item }}</view>
+</scroll-view> -->
+
+<!-- <view class="box1"></view>
+<view class="box2"></view> -->
+
+<!-- //官方库 -->
+<!-- <view class="page">
+  <view class="page__hd">
+    <view class="page__title">SearchBar</view>
+    <view class="page__desc">搜索栏</view>
+  </view>
+  <view class="page__bd">
+    <view class="weui-search-bar">
+      <view class="weui-search-bar__form">
+        <view class="weui-search-bar__box">
+          <icon class="weui-icon-search_in-box" type="search" size="14"></icon>
+          <input type="text" class="weui-search-bar__input" placeholder="搜索" value="{{inputVal}}" focus="{{inputShowed}}" bindinput="inputTyping" />
+          <view class="weui-icon-clear" wx:if="{{inputVal.length > 0}}" bindtap="clearInput">
+            <icon type="clear" size="14"></icon>
+          </view>
+        </view>
+        <label class="weui-search-bar__label" hidden="{{inputShowed}}" bindtap="showInput">
+          <icon class="weui-icon-search" type="search" size="14"></icon>
+          <view class="weui-search-bar__text">搜索</view>
+        </label>
+      </view>
+      <view class="weui-search-bar__cancel-btn" hidden="{{!inputShowed}}" bindtap="hideInput">取消</view>
+    </view>
+    <view class="weui-cells searchbar-result" wx:if="{{inputVal.length > 0}}">
+      <navigator url="" class="weui-cell" hover-class="weui-cell_active">
+        <view class="weui-cell__bd">
+          <view>实时搜索文本</view>
+        </view>
+      </navigator>
+      <navigator url="" class="weui-cell" hover-class="weui-cell_active">
+        <view class="weui-cell__bd">
+          <view>实时搜索文本</view>
+        </view>
+      </navigator>
+      <navigator url="" class="weui-cell" hover-class="weui-cell_active">
+        <view class="weui-cell__bd">
+          <view>实时搜索文本</view>
+        </view>
+      </navigator>
+      <navigator url="" class="weui-cell" hover-class="weui-cell_active">
+        <view class="weui-cell__bd">
+          <view>实时搜索文本</view>
+        </view>
+      </navigator>
+    </view>
+  </view>
+</view> -->
+
+<!-- <view wx:if="{{ show }}">world!</view> -->
+<!-- <view wx:else>hello!</view>
+<button bindtap="showCh">切换</button> -->
+
+<!-- <block wx:if="{{ show }}">
+  <view>world!</view>
+  <view>hello!</view>
+</block>
+<button bindtap="showCh">切换</button> -->
+
+<!-- <block wx:for="{{ number }}" wx:for-item="num">
+  <view>{{ num }}</view>
+</block> -->
+
+<!-- <block wx:for="{{ number }}" wx:for-item="num" wx:key="{{ num }}">
+  <view>{{ num }}</view>
+</block> -->
+
+<!-- <import src="/wxml/template.wxml"/>
+<template is="hello"></template>
+<template is="mus" data="{{ hello:'hello',world:'world' }}"></template> -->
+
+<!-- <wxs src="../../wxs/info.wxs" module="info"/>
+<view>{{ info.message }}</view> -->
+
+<!-- <wxs src="../../wxs/numTool.wxs" module="num"/>
+<view>{{ num.numfix(price,4) }}</view> -->
+
+<!-- <view>
+  <block wx:for="{{ fruits }}" wx:key="{{ index }}">
+    <view bindtap="clickIt" data-index="{{ index }}" data-item="{{ item }}">{{ item }}</view>
+  </block>
+</view> -->
+
+<!-- <my-cpn title="？？？" titleclass="red"/>
+<view>--------------</view>
+<my-cpn titleclass="blue"/>
+<view>--------------</view>
+<my-cpn/> -->
+
+<!-- <view>当前数值：{{ count }}</view>
+<my-cpn bind:addone="addIt"/>  -->
+
+<!-- <w-tab-control title="{{ title }}" bind:itemclick="showIt"/> -->
+
+<!-- <my-sel class="my-sel"/>
+<button bind:tap="addcount">+</button> -->
+
+<!-- <my-slot>
+  <view>hello world!</view>
+  <view>hello world!</view>
+  <view>hello world!</view>
+</my-slot>
+<my-slot>
+  <slider></slider>
+</my-slot> -->
+
+<!-- <my-slot>
+  <button slot="center">+++</button>
+</my-slot> -->

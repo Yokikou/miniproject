@@ -1,0 +1,9 @@
+<template name="hello">
+  <view>hello world</view>
+  <button>+</button>
+</template>
+
+<template name="mus">
+  <view>{{ hello }}</view>
+  <button>{{ world }}</button>
+</template>

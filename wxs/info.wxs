@@ -1,0 +1,9 @@
+var message = "hello world!";
+var num = function(num1, num2) {
+  return num1 + num2;
+}
+
+module.exports = {
+  message: message,
+  num: num
+}

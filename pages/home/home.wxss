@@ -1,5 +1,43 @@
+/* @import './style/box.wxss';
+@import './style/wxsearch.wxss' */
+
 /* pages/home/home.wxss */
-.title{
+/* .title{
   color: red;
   font-size: 20px
+} */
+/* .red{
+  background: blue
+} */
+/* input{
+  border: 1px solid black;
+  margin: 8px 10px
+} */
+/* .hei{ */
+  /* white-space: nowrap; */
+  /* height: 100px;
+  width: 100px;
+  background: lightblue */
+/* } */
+/* .bc{
+  width: 50px;
+  height: 50px;
+  background: red;
+  display: block
+} */
+/* .box1{
+  width: 100px;
+  height: 100px;
+  background: red;
 }
+.box2{
+  width: 200rpx;
+  height: 200rpx;
+  background: blue;
+} */
+/* .red{
+  color: red
+}
+.blue{
+  color: blue
+} */
